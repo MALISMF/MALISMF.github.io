@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "BebasNeue";
+  src: url("BebasNeue.ttf");
+}
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  font-family: BebasNeue;
+}
+header .menu {
+  width: 100%;
+}
+header .menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0;
+  list-style: none;
+}
+
+.s1 {
+  background-image: url("../imgs/bg.png");
+  background-size: cover;
+}
