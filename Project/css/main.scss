@@ -1,0 +1,34 @@
+// Шрифты
+
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('BebasNeue.ttf');
+}
+
+// Header
+
+header {
+    display: flex;
+    background-color: white;
+
+    font-family: BebasNeue;
+    .menu {
+        width: 100%;
+        ul {
+            display: flex;
+            justify-content: space-between;
+
+            padding: 0;
+        
+            list-style: none;
+        }
+
+    }
+}
+
+// Sections
+
+.s1 {
+    background-image: url("../imgs/bg.png");
+    background-size: cover;
+}
